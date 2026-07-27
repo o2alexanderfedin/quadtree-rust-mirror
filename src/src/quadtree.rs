@@ -5,6 +5,7 @@ use crate::src::node::{
 };
 use crate::src::point::{quadtree_point_free, quadtree_point_new};
 use crate::src::quadtree_h::{QuadtreeNode, QuadtreeNodeT, QuadtreePointT, QuadtreeT};
+use crate::test::{ascent, descent};
 use crate::{free, malloc};
 
 pub(crate) extern "C" fn quadtree_new(
